@@ -1,0 +1,37 @@
+body {
+  font-family: Helvetica, fantasy;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  background: linear-gradient(to bottom, rgba(245, 245, 220, 1), rgba(245, 245, 220, 0)), url('https://i.postimg.cc/8c6h4Lyx/14924407-rm184-mynt-05.jpg'); /* Путь к изображению */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 30px;
+  color: #333;
+}
+
+button {
+  font-family: Helvetica, fantasy;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #705435;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006b8c;
+}
+
+#user-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
