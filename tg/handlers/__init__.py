@@ -1,0 +1,1 @@
+from tg.handlers.dispatcher import callback_start
