@@ -1,23 +1,21 @@
+/* Основной стиль для body */
 body {
-  font-family: Helvetica, fantasy;
+  font-family: Arial, sans-serif;
   margin: 20px;
   padding: 20px;
   background-color: #f9f9f9;
-  background: linear-gradient(to bottom, rgba(245, 245, 220, 1), rgba(245, 245, 220, 0)), url('https://i.postimg.cc/8c6h4Lyx/14924407-rm184-mynt-05.jpg'); /* Путь к изображению */
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
+/* Стиль для заголовка h1 */
 h1 {
-  font-size: 30px;
   color: #333;
 }
 
+/* Стиль для кнопки */
 button {
-  font-family: Helvetica, fantasy;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #705435;
+  background-color: #0088cc;
   color: white;
   border: none;
   border-radius: 5px;
@@ -28,6 +26,7 @@ button:hover {
   background-color: #006b8c;
 }
 
+/* Стиль для блока с информацией о пользователе */
 #user-info {
   margin-top: 20px;
   padding: 10px;
