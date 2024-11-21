@@ -1,0 +1,5 @@
+
+/.idea
+/tg/__pycache__
+/tg/handlers/__pycache__
+/utils/__pycache__
