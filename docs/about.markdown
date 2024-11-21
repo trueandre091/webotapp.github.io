@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
 <!doctype html>
 <html lang="en">
   <head>
@@ -40,28 +45,23 @@
     <h1>Добро пожаловать в Telegram Web App</h1>
     <button id="whoAmIButton">Кто я?</button>
     <div id="user-info"></div>
-
     <script>
       let tg = window.Telegram.WebApp;
-
       function displayUserData() {
         const userData = {
           user_id: Telegram.WebApp.initDataUnsafe?.user?.id || "Unknown",
           first_name: Telegram.WebApp.initDataUnsafe?.user?.first_name || "Unknown",
         };
-
         const userInfoDiv = document.getElementById('user-info');
         userInfoDiv.innerHTML = `
           <p><strong>Ваш ID:</strong> ${userData.user_id}</p>
           <p><strong>Ваше имя:</strong> ${userData.first_name}</p>
         `;
       }
-
       tg.ready();
       tg.expand();
       tg.MainButton.text = "Отправить данные";
       tg.MainButton.show();
-
       document.getElementById('whoAmIButton').addEventListener('click', function() {
         displayUserData();
       });
